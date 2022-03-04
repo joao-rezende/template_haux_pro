@@ -1,0 +1,120 @@
+.sidebar[data-background-color=black] {
+    background-color: #000;
+}
+
+.sidebar .logo {
+    padding: 0;   
+}
+
+.main-panel.full {
+    width: 100%;
+}
+
+.main-panel>.content {
+    min-height: calc(100vh - 155px);
+}
+
+.card [class*=card-header-]:not(.card-header-icon):not(.card-header-text):not(.card-header-image):not(.card-header-warning) {
+    background: linear-gradient(60deg,#b41819,#921111);
+}
+
+.card.bg-primary, .card .card-header-primary .card-icon, .card .card-header-primary .card-text, .card .card-header-primary:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-primary .back, .card.card-rotate.bg-primary .front {
+    background: linear-gradient(60deg,#b41819,#921111);
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #b41819;
+    border-color: #821111;
+    box-shadow: 0 2px 2px 0 rgba(180,24,25,.14), 0 3px 1px -2px rgba(180,24,25,.2), 0 1px 5px 0 rgba(180,24,25,.12);
+}
+
+.btn.btn-primary.focus, .btn.btn-primary:focus, .btn.btn-primary:hover {
+    color: #fff;
+    background-color: #9C1414;
+    border-color: #9C1414;
+    box-shadow: 0 2px 2px 0 rgba(156,20,20,.14), 0 3px 1px -2px rgba(156,20,20,.2), 0 1px 5px 0 rgba(156,20,20,.12);
+}
+
+.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover, .dropdown-menu a:active, .dropdown-menu a:focus, .dropdown-menu a:hover {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,20,20,.4);
+    background-color: #9C1414;
+    color: #fff;
+}
+
+.btn.btn-primary.btn-link, .btn.btn-primary.btn-link:active, .btn.btn-primary.btn-link:focus, .btn.btn-primary.btn-link:hover {
+    background-color: transparent;
+    color: #b41819;
+}
+
+a:focus, a:hover {
+    color: #690707;
+    text-decoration: none;
+}
+
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(0deg,#9C1414 2px,rgba(156,20,20,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+}
+
+.form-check .form-check-input:checked~.form-check-sign .check {
+    background: #9C1414;
+}
+
+a {
+    color: #9C1414;
+}
+
+.form-check .form-check-input:checked~.circle {
+    border-color: #9C1414;
+}
+
+.form-check .form-check-label .circle .check {
+    background-color: #9C1414;
+}
+
+.content.login {
+    margin-top: 0px;
+    padding: 0;
+}
+
+.content.login .card {
+    margin-top: calc(50% - 90px);
+}
+
+#login {
+    padding-top: 10px;
+}
+
+#login #btn-entrar {
+    margin-top: 20px;
+}
+
+#login #btn-esqueci-senha {
+    border-color: #9C1414;
+    border: 1px solid;
+}
+
+#login .form-group {
+    margin-bottom: 10px;
+}
+
+.card .card-header-primary .card-icon, .card .card-header-primary .card-text, .card .card-header-primary:not(.card-header-icon):not(.card-header-text) {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,20,20,.4);
+}
+
+.login .container-fluid {
+    /* background: no-repeat;
+    background-position: center right -60px;
+    background-size: 60%;
+    background-image: url(); */
+    min-height: calc(100vh - 85px);
+}
+
+.sidebar[data-color=danger] li.active>a {
+    background-color: #b41819;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(180,24,25,.4);
+}
+
+.text-primary {
+    color: #9C1414!important;
+}
